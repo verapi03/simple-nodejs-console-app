@@ -4,12 +4,14 @@ This project is a console application to interact with a SQLite database. Curren
 
 This project is not focused on a solid architecture or software design, but only in the functionality of a basic console interface that interacts with the SQLite database through Sequelize. 
 
-The unique goal is to illustrate the basic CRUD operations of the promise-based Node.js ORM Sequelize. The interface logic is coded in a monolith located in index.js in the root of the project.
+The unique goal is to illustrate the basic CRUD operations of the promise-based Node.js ORM Sequelize. The interface logic is coded in a monolith located in index.js on the root directory.
 
 To see this project working:
 
 Clone the project
+
 On the console go to the root directory and install its dependencies: "npm install"
+
 Start interacting with the database upon sending CRUD commands like in the following examples:
 
 CREATE: "node . --create:Contact --firstname=Andres --lastname=Vera-Pineda --phone=1234567890 --email=andres@email.com"
