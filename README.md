@@ -13,7 +13,11 @@ On the console go to the root directory and install its dependencies: "npm insta
 Start interacting with the database upon sending CRUD commands like in the following examples:
 
 CREATE: "node . --create:Contact --firstname=Andres --lastname=Vera-Pineda --phone=1234567890 --email=andres@email.com"
+
 READ:   "node . --read:Contact __id=3" (Retrieves only one row from the Contacts table. The arguments starting with __ set the where clause.)
+
 READ:   "node . --read:Contact "       (Retrieves all rows in the Contacts table)
-UPDATE: "node . --update:Contact --phone=1112223330 --email=nuevo@email.com __id=3" (At least one argument starting with __ is mandatory as it sets the where clause.) 
+
+UPDATE: "node . --update:Contact --phone=1112223330 --email=nuevo@email.com __id=3" (At least one argument starting with __ is mandatory as it sets the where clause.)
+
 DELETE: "node . --delete:Contact __id=3" (At least one argument starting with __ is mandatory as it sets the where clause.)
