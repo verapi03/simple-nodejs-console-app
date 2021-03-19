@@ -8,11 +8,11 @@ The unique goal is to illustrate the basic CRUD operations of the promise-based 
 
 To see this project working:
 
-Clone the project
+* Clone the project.
 
-On the console go to the root directory and install its dependencies: "npm install"
+* On the console go to the root directory and install its dependencies: "npm install".
 
-Start interacting with the database upon sending CRUD commands like in the following examples:
+* Start interacting with the database upon sending CRUD commands like in the following examples:
 
 CREATE: "node . --create:Contact --firstname=Andres --lastname=Vera-Pineda --phone=1234567890 --email=andres@email.com"
 
